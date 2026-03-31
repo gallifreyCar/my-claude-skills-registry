@@ -1,5 +1,7 @@
 # Claude Code Skills Registry 中文版
 
+[English](README.md) | [中文](README_CN.md)
+
 本仓库作为 Claude Code 所有已安装技能的综合性文档和注册中心。
 
 ## 目的

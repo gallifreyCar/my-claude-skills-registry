@@ -1,5 +1,7 @@
 # Claude Code Skills Registry
 
+[English](README.md) | [中文](README_CN.md)
+
 This repository serves as a comprehensive documentation and registry for all Claude Code skills installed in my environment.
 
 ## Purpose

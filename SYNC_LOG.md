@@ -10,4 +10,4 @@ This file is automatically updated by `skill-sync` when skills are installed or 
 |------|--------|-------|--------|
 | 2026-03-31 | Initial | Registry created | Manual |
 
----
+---| 2026-03-31 12:58:03 | Auto-sync | All skills | skill-sync.sh |

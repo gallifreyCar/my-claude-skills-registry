@@ -70,7 +70,24 @@ my-claude-skills-registry/
 - **描述**：创建、测试和优化技能
 - **功能**：起草技能、运行评测、盲测对比、描述优化
 
-### 3. 自定义本地技能
+### 3. MCP 服务器
+
+| 服务器 | 命令 | 描述 |
+|--------|------|------|
+| `playwright` | `npx @playwright/mcp@latest` | 基于 accessibility tree 的浏览器自动化 |
+| `meta-mcp` | HTTP endpoint | 内部日志查询与服务信息 |
+
+#### playwright（Microsoft 官方）
+- **GitHub**: https://github.com/microsoft/playwright-mcp
+- **描述**：无需视觉模型的浏览器自动化
+- **核心功能**：
+  - 使用 accessibility tree（非截图）
+  - LLM 友好的结构化快照
+  - 确定性工具应用
+  - 支持 chrome, firefox, webkit, msedge
+  - 持久化 profile 模式保持登录状态
+
+### 4. 自定义本地技能
 
 | 技能 | 位置 | 描述 |
 |------|------|------|

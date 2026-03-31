@@ -69,7 +69,24 @@ my-claude-skills-registry/
 - **Description**: Create, test, and optimize skills
 - **Features**: Draft skill, run evals, blind comparison, description optimization
 
-### 3. Custom Local Skills
+### 3. MCP Servers
+
+| Server | Command | Description |
+|--------|---------|-------------|
+| `playwright` | `npx @playwright/mcp@latest` | Browser automation via accessibility tree |
+| `meta-mcp` | HTTP endpoint | Internal log query & service info |
+
+#### playwright (Microsoft Official)
+- **GitHub**: https://github.com/microsoft/playwright-mcp
+- **Description**: Browser automation without vision models
+- **Key Features**:
+  - Uses accessibility tree (not screenshots)
+  - LLM-friendly structured snapshots
+  - Deterministic tool application
+  - Supports chrome, firefox, webkit, msedge
+  - Persistent profile mode for login preservation
+
+### 4. Custom Local Skills
 
 | Skill | Location | Description |
 |-------|----------|-------------|
